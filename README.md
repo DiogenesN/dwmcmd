@@ -20,27 +20,27 @@ It was tested on Debian 12 on Wayfire.
 # Installation/Usage
   1. Open a terminal and run:
 
-		chmod +x ./configure
-		./configure
+		 chmod +x ./configure
+		 ./configure
 
   2. if all went well then run:
 
-		make
-		sudo make install
+		 make
+		 sudo make install
 		 
-		(if you just want to test it then run: make run)
+		 (if you just want to test it then run: make run)
 
   3. first list all the titles and app_ids:
   
-		dwmcmd --list-all
+		 dwmcmd --list-all
 
   4. pick any title or app_id from the list and run:
 
-		dwmcmd title: Google Translate - Brave
-		dwmcmd app_id: brave-browser
+		 dwmcmd title: Google Translate - Brave
+		 dwmcmd app_id: brave-browser
 
 # Hint
-	Some titles need to be put in double quotes e.g.:
+Some titles need to be put in double quotes e.g.:
 
 		dwmcmd title: "Google Translate - Brave"
 
