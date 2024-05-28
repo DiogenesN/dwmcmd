@@ -42,7 +42,7 @@ It was tested on Debian 12 on Wayfire.
 # Hint
 Some titles need to be put in double quotes e.g.:
 
-	dwmcmd title: "Google Translate - Brave"
+		dwmcmd title: "Google Translate - Brave"
 
 That's it!
 
